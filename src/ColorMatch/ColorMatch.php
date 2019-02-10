@@ -21,7 +21,7 @@ use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\player\PlayerKickEvent;
 use pocketmine\plugin\Plugin;
 
-class ColorMatch extends PluginBase implements Listener{
+class ColorMatch extends PluginBase implements Listener {
 
     public $cfg;
     public $msg;
@@ -123,7 +123,7 @@ class ColorMatch extends PluginBase implements Listener{
         return true;
     }
     
-    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+    public function onCommand(CommandSender $sender, Command $command, $label, array $args){
             if(strtolower($cmd->getName()) == "cm"){
                     if(isset($args[0])){
                         if($sender instanceof Player){
