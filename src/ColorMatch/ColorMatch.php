@@ -21,7 +21,8 @@ use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\player\PlayerKickEvent;
 use pocketmine\plugin\Plugin;
 
-class ColorMatch extends implements Listener {
+class ColourMatch extends PluginBase
+{
 
     public $cfg;
     public $msg;
