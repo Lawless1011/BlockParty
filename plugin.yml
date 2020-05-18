@@ -11,40 +11,40 @@ commands:
 
 permissions:
     cm:
-        description: "main ColorMatch permission"
+        description: "メインコマンド"
         default: op
         children:
             cm.command:
-                description: "main command permission"
+                description: "メインコマンドの権限"
                 default: op
                 children:
                     cm.command.help:
-                        description: "ColorMatch help"
+                        description: "ヘルプ"
                         default: true
                     cm.command.join:
-                        description: "join to arena"
+                        description: "参加する"
                         default: true
                     cm.command.leave:
-                        description: "leave arena "
+                        description: "離脱する "
                         default: true
                     cm.command.start:
-                        description: "start game"
+                        description: "ブロックパーティーを開始する"
                         default: op
                     cm.command.stop:
-                        description: "stop game"
+                        description: "ブロックパーティーを停止する"
                         default: op
                     cm.command.kick:
-                        description: "kick player from the arena"
+                        description: "プレイヤーをブロックパーティーから追放する"
                         default: op
                     cm.command.lobby:
-                        description: "send player to lobby"
+                        description: "ロビーに戻る"
                         default: true
                     cm.command.set:
-                        description: "allow player to edit arenas from the game"
+                        description: "編集"
                         default: op
             cm.sign:
-                description: "join using signs"
+                description: "看板？"
                 default: true
             cm.acces:
-                description: "allow player to play colormatch"
+                description: "ブロックパーティーをさせる"
                 default: true
