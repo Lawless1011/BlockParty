@@ -1,2 +1,2 @@
 # BlockParty
-The official Block Party plugin for MCPE
+玲瓏サーバーバージョンブロックパーティ
