@@ -4,7 +4,7 @@ Language: "English"
 Prefix: "&9[&cCM&9] "
 #Game lobby location
 lobby:
-    x: 1
-    y: 1
-    z: 1
-    world: ColorMatch
+    x: 173
+    y: 74
+    z: 182
+    world: hub
